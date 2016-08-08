@@ -13,6 +13,8 @@
 		1BEDC0251D5829590010F2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEDC0231D5829590010F2A0 /* Main.storyboard */; };
 		1BEDC0271D5829590010F2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEDC0261D5829590010F2A0 /* Assets.xcassets */; };
 		1BEDC02A1D5829590010F2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEDC0281D5829590010F2A0 /* LaunchScreen.storyboard */; };
+		1BEDC0321D582B170010F2A0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEDC0311D582B170010F2A0 /* RootViewController.swift */; };
+		1BEDC0341D582BD80010F2A0 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEDC0331D582BD80010F2A0 /* TestTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1BEDC0261D5829590010F2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEDC0291D5829590010F2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEDC02B1D5829590010F2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEDC0311D582B170010F2A0 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1BEDC0331D582BD80010F2A0 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1BEDC01D1D5829590010F2A0 /* AppDelegate.swift */,
 				1BEDC01F1D5829590010F2A0 /* FirstViewController.swift */,
 				1BEDC0211D5829590010F2A0 /* SecondViewController.swift */,
+				1BEDC0311D582B170010F2A0 /* RootViewController.swift */,
+				1BEDC0331D582BD80010F2A0 /* TestTableViewCell.swift */,
 				1BEDC0231D5829590010F2A0 /* Main.storyboard */,
 				1BEDC0261D5829590010F2A0 /* Assets.xcassets */,
 				1BEDC0281D5829590010F2A0 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				1BEDC0221D5829590010F2A0 /* SecondViewController.swift in Sources */,
 				1BEDC01E1D5829590010F2A0 /* AppDelegate.swift in Sources */,
+				1BEDC0321D582B170010F2A0 /* RootViewController.swift in Sources */,
 				1BEDC0201D5829590010F2A0 /* FirstViewController.swift in Sources */,
+				1BEDC0341D582BD80010F2A0 /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
