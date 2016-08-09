@@ -10,6 +10,8 @@ import UIKit
 
 class RootViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    var testLabel = "TestLabel"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,5 +28,9 @@ class RootViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return 1
     }
 
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 
+        
+    }
 }

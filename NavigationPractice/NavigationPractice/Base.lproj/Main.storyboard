@@ -73,6 +73,9 @@
                                         <constraint firstItem="x0n-Ee-DDN" firstAttribute="top" secondItem="6l3-gL-BBK" secondAttribute="top" constant="11" id="ty8-wg-A3J"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="testLabel" destination="x0n-Ee-DDN" id="YyF-wZ-zu2"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
